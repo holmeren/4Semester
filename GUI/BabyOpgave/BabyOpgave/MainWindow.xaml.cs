@@ -27,11 +27,7 @@ namespace BabyOpgave
         public MainWindow()
         {
             InitializeComponent();
-            for(int i = 1900; i < 2010; i += 10)
-            {
-                decadeList.Add(i);
-            }
-            listBox1.ItemsSource = decadeList;
+           
 
         }
 
