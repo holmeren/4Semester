@@ -1,0 +1,73 @@
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\MainWindow.baml
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\MainWindow.g.cs
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\App.g.cs
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate_MarkupCompile.cache
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.g.resources
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.Properties.Resources.resources
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\ListBoxWithDataTemplate\bin\Debug\ListBoxWithDataTemplate.exe
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\ListBoxWithDataTemplate\bin\Debug\ListBoxWithDataTemplate.pdb
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.exe
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.pdb
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate_MarkupCompile.lref
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.exe
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.pdb
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\ListBoxWithDataTemplate\bin\Debug\ListBoxWithDataTemplate.exe
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\ListBoxWithDataTemplate\bin\Debug\ListBoxWithDataTemplate.pdb
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\MainWindow.g.cs
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\App.g.cs
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate_MarkupCompile.cache
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate_MarkupCompile.lref
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\MainWindow.baml
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.g.resources
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.Properties.Resources.resources
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.exe
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.pdb
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\ListBoxWithDataTemplate\bin\Debug\ListBoxWithDataTemplate.exe
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\ListBoxWithDataTemplate\bin\Debug\ListBoxWithDataTemplate.pdb
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\MainWindow.g.cs
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\App.g.cs
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate_MarkupCompile.cache
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate_MarkupCompile.lref
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\MainWindow.baml
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.g.resources
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.Properties.Resources.resources
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.exe
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.pdb
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\bin\Debug\ListBoxWithDataTemplate.exe
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\bin\Debug\ListBoxWithDataTemplate.pdb
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\MainWindow.g.cs
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\App.g.cs
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate_MarkupCompile.cache
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate_MarkupCompile.lref
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\MainWindow.baml
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.g.resources
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.Properties.Resources.resources
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.exe
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\bin\Debug\ListBoxWithDataTemplate.exe
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\bin\Debug\ListBoxWithDataTemplate.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\MainWindow.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\App.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate_MarkupCompile.cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate_MarkupCompile.lref
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\MainWindow.baml
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.g.resources
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\ListBoxWithDataTemplate.Properties.Resources.resources
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\ListBoxWithDataTemplate\obj\x86\Debug\06ListBoxWithDataTemplate.csproj.GenerateResource.Cache

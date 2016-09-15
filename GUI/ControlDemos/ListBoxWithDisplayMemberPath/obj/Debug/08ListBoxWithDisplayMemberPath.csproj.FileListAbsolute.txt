@@ -1,0 +1,26 @@
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\ListBoxWithDisplayMemberPath\bin\Debug\ListBoxWithDisplayMemberPath.exe.config
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\ListBoxWithDisplayMemberPath.exe
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\ListBoxWithDisplayMemberPath.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\ListBoxWithDisplayMemberPath\bin\Debug\ListBoxWithDisplayMemberPath.exe
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\ListBoxWithDisplayMemberPath\bin\Debug\ListBoxWithDisplayMemberPath.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\08ListBoxWithDisplayMemberPath.csprojResolveAssemblyReference.cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\MainWindow.baml
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\MainWindow.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\App.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\ListBoxWithDisplayMemberPath_MarkupCompile.cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\ListBoxWithDisplayMemberPath.g.resources
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\ListBoxWithDisplayMemberPath.Properties.Resources.resources
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\08ListBoxWithDisplayMemberPath.csproj.GenerateResource.Cache
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\ControlDemos\ListBoxWithDisplayMemberPath\bin\Debug\ListBoxWithDisplayMemberPath.exe.config
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\ListBoxWithDisplayMemberPath.exe
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\ListBoxWithDisplayMemberPath.pdb
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\ControlDemos\ListBoxWithDisplayMemberPath\bin\Debug\ListBoxWithDisplayMemberPath.exe
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\ControlDemos\ListBoxWithDisplayMemberPath\bin\Debug\ListBoxWithDisplayMemberPath.pdb
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\08ListBoxWithDisplayMemberPath.csprojResolveAssemblyReference.cache
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\MainWindow.baml
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\MainWindow.g.cs
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\App.g.cs
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\ListBoxWithDisplayMemberPath_MarkupCompile.cache
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\ListBoxWithDisplayMemberPath.g.resources
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\ListBoxWithDisplayMemberPath.Properties.Resources.resources
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\ControlDemos\ListBoxWithDisplayMemberPath\obj\Debug\08ListBoxWithDisplayMemberPath.csproj.GenerateResource.Cache

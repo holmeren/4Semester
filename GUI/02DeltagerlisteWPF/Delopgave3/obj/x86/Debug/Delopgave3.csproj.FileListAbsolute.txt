@@ -1,0 +1,62 @@
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\DeltagerlisteWPF\Delopgave3\bin\Debug\Delopgave3.exe
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\DeltagerlisteWPF\Delopgave3\bin\Debug\Delopgave3.pdb
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\DeltagerlisteWPF\Delopgave3\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\DeltagerlisteWPF\Delopgave3\obj\x86\Debug\MainWindow.baml
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\DeltagerlisteWPF\Delopgave3\obj\x86\Debug\MainWindow.g.cs
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\DeltagerlisteWPF\Delopgave3\obj\x86\Debug\App.g.cs
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3_MarkupCompile.cache
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.g.resources
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.Properties.Resources.resources
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\DeltagerlisteWPF\Delopgave3\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\DeltagerlisteWPF\Delopgave3\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.exe
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.pdb
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.exe
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.pdb
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\02bDeltagerlisteWPF\Delopgave3\bin\Debug\Delopgave3.exe
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\02bDeltagerlisteWPF\Delopgave3\bin\Debug\Delopgave3.pdb
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\MainWindow.baml
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\MainWindow.g.cs
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\App.g.cs
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3_MarkupCompile.cache
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.g.resources
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.Properties.Resources.resources
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\per\Documents\Kurser\WIN1\Løsningsforslag\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.exe
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3\bin\Debug\Delopgave3.exe
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3\bin\Debug\Delopgave3.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.csprojResolveAssemblyReference.cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\MainWindow.baml
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\MainWindow.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\App.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3_MarkupCompile.cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.g.resources
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.Properties.Resources.resources
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.csproj.GenerateResource.Cache
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.exe
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.pdb
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\02DeltagerlisteWPF\Delopgave3\bin\Debug\Delopgave3.exe
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\02DeltagerlisteWPF\Delopgave3\bin\Debug\Delopgave3.pdb
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.csprojResolveAssemblyReference.cache
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\MainWindow.baml
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\MainWindow.g.cs
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\App.g.cs
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3_MarkupCompile.cache
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.g.resources
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.Properties.Resources.resources
+D:\PoulEjnar\OneDrive\Courses\I4GUI\Solutions\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.csproj.GenerateResource.Cache
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.exe
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.pdb
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\02DeltagerlisteWPF\Delopgave3\bin\Debug\Delopgave3.exe
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\02DeltagerlisteWPF\Delopgave3\bin\Debug\Delopgave3.pdb
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.csprojResolveAssemblyReference.cache
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\MainWindow.baml
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\App.g.cs
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3_MarkupCompile.cache
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.g.resources
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.Properties.Resources.resources
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\02DeltagerlisteWPF\Delopgave3\obj\x86\Debug\Delopgave3.csproj.GenerateResource.Cache

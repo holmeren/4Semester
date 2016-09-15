@@ -1,0 +1,15 @@
+c:\users\jrt\documents\visual studio 2015\Projects\F16I4DABProjekter\ContextWithCollectionMtN\bin\Debug\ContextWithCollectionMtN.exe.config
+C:\Users\jrt\Documents\Visual Studio 2015\Projects\F16I4DABProjekter\ContextWithCollectionMtN\bin\Debug\ContextWithCollectionMtN.exe
+C:\Users\jrt\Documents\Visual Studio 2015\Projects\F16I4DABProjekter\ContextWithCollectionMtN\bin\Debug\ContextWithCollectionMtN.pdb
+C:\Users\jrt\Documents\Visual Studio 2015\Projects\F16I4DABProjekter\ContextWithCollectionMtN\obj\Debug\ContextWithCollectionMtN.csprojResolveAssemblyReference.cache
+C:\Users\jrt\Documents\Visual Studio 2015\Projects\F16I4DABProjekter\ContextWithCollectionMtN\obj\Debug\ContextWithCollectionMtN.exe
+C:\Users\jrt\Documents\Visual Studio 2015\Projects\F16I4DABProjekter\ContextWithCollectionMtN\obj\Debug\ContextWithCollectionMtN.pdb
+C:\Users\jrt\Documents\Visual Studio 2015\Projects\I4DABProjekter\ContextWithCollectionMtN\bin\Debug\ContextWithCollectionMtN.exe.config
+C:\Users\jrt\Documents\Visual Studio 2015\Projects\I4DABProjekter\ContextWithCollectionMtN\obj\Debug\ContextWithCollectionMtN.exe
+C:\Users\jrt\Documents\Visual Studio 2015\Projects\I4DABProjekter\ContextWithCollectionMtN\obj\Debug\ContextWithCollectionMtN.pdb
+C:\Users\jrt\Documents\Visual Studio 2015\Projects\I4DABProjekter\ContextWithCollectionMtN\bin\Debug\ContextWithCollectionMtN.exe
+C:\Users\jrt\Documents\Visual Studio 2015\Projects\I4DABProjekter\ContextWithCollectionMtN\bin\Debug\ContextWithCollectionMtN.pdb
+C:\Users\jrt\Documents\Visual Studio 2015\Projects\I4DABProjekter\ContextWithCollectionMtN\obj\Debug\ContextWithCollectionMtN.csprojResolveAssemblyReference.cache
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\DAB\ContextWithCollectionMtN\bin\Debug\ContextWithCollectionMtN.exe.config
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\DAB\ContextWithCollectionMtN\obj\Debug\ContextWithCollectionMtN.exe
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\DAB\ContextWithCollectionMtN\obj\Debug\ContextWithCollectionMtN.pdb

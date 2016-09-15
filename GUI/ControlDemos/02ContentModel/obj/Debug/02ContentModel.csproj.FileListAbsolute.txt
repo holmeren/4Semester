@@ -1,0 +1,126 @@
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\ControlDemos\02ContentModel\bin\Debug\02ContentModel.exe
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\ControlDemos\02ContentModel\bin\Debug\02ContentModel.pdb
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\ControlDemos\02ContentModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\ControlDemos\02ContentModel\obj\Debug\Window1.baml
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\ControlDemos\02ContentModel\obj\Debug\Window1.g.cs
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\ControlDemos\02ContentModel\obj\Debug\App.g.cs
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\ControlDemos\02ContentModel\obj\Debug\02ContentModel_MarkupCompile.cache
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\ControlDemos\02ContentModel\obj\Debug\02ContentModel.g.resources
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\ControlDemos\02ContentModel\obj\Debug\_02ContentModel.Properties.Resources.resources
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\ControlDemos\02ContentModel\obj\Debug\02ContentModel.csproj.GenerateResource.Cache
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\ControlDemos\02ContentModel\obj\Debug\02ContentModel.exe
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\ControlDemos\02ContentModel\obj\Debug\02ContentModel.pdb
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\04_ControlDemos\02ContentModel\bin\Debug\02ContentModel.exe
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\04_ControlDemos\02ContentModel\bin\Debug\02ContentModel.pdb
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\04_ControlDemos\02ContentModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\04_ControlDemos\02ContentModel\obj\Debug\Window1.baml
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\04_ControlDemos\02ContentModel\obj\Debug\Window1.g.cs
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\04_ControlDemos\02ContentModel\obj\Debug\App.g.cs
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\04_ControlDemos\02ContentModel\obj\Debug\02ContentModel_MarkupCompile.cache
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\04_ControlDemos\02ContentModel\obj\Debug\02ContentModel.g.resources
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\04_ControlDemos\02ContentModel\obj\Debug\_02ContentModel.Properties.Resources.resources
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\04_ControlDemos\02ContentModel\obj\Debug\02ContentModel.csproj.GenerateResource.Cache
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\04_ControlDemos\02ContentModel\obj\Debug\02ContentModel.exe
+C:\Dokumenter\Win1\Lektioner\04 Controls and reflection\04_ControlDemos\02ContentModel\obj\Debug\02ContentModel.pdb
+C:\Dokumenter\Win1\Lektioner\04 Resources, styles, control templates, and themes\04_ControlDemos\02ContentModel\bin\Debug\02ContentModel.exe
+C:\Dokumenter\Win1\Lektioner\04 Resources, styles, control templates, and themes\04_ControlDemos\02ContentModel\bin\Debug\02ContentModel.pdb
+C:\Dokumenter\Win1\Lektioner\04 Resources, styles, control templates, and themes\04_ControlDemos\02ContentModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumenter\Win1\Lektioner\04 Resources, styles, control templates, and themes\04_ControlDemos\02ContentModel\obj\Debug\Window1.baml
+C:\Dokumenter\Win1\Lektioner\04 Resources, styles, control templates, and themes\04_ControlDemos\02ContentModel\obj\Debug\Window1.g.cs
+C:\Dokumenter\Win1\Lektioner\04 Resources, styles, control templates, and themes\04_ControlDemos\02ContentModel\obj\Debug\App.g.cs
+C:\Dokumenter\Win1\Lektioner\04 Resources, styles, control templates, and themes\04_ControlDemos\02ContentModel\obj\Debug\02ContentModel_MarkupCompile.cache
+C:\Dokumenter\Win1\Lektioner\04 Resources, styles, control templates, and themes\04_ControlDemos\02ContentModel\obj\Debug\02ContentModel.g.resources
+C:\Dokumenter\Win1\Lektioner\04 Resources, styles, control templates, and themes\04_ControlDemos\02ContentModel\obj\Debug\_02ContentModel.Properties.Resources.resources
+C:\Dokumenter\Win1\Lektioner\04 Resources, styles, control templates, and themes\04_ControlDemos\02ContentModel\obj\Debug\02ContentModel.csproj.GenerateResource.Cache
+C:\Dokumenter\Win1\Lektioner\04 Resources, styles, control templates, and themes\04_ControlDemos\02ContentModel\obj\Debug\02ContentModel.exe
+C:\Dokumenter\Win1\Lektioner\04 Resources, styles, control templates, and themes\04_ControlDemos\02ContentModel\obj\Debug\02ContentModel.pdb
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\02ContentModel\bin\Debug\02ContentModel.exe
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\02ContentModel\bin\Debug\02ContentModel.pdb
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\02ContentModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\02ContentModel\obj\Debug\Window1.baml
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\02ContentModel\obj\Debug\Window1.g.cs
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\02ContentModel\obj\Debug\App.g.cs
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\02ContentModel\obj\Debug\02ContentModel_MarkupCompile.cache
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\02ContentModel\obj\Debug\02ContentModel.g.resources
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\02ContentModel\obj\Debug\_02ContentModel.Properties.Resources.resources
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\02ContentModel\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\02ContentModel\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\02ContentModel\obj\Debug\02ContentModel.exe
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\02ContentModel\obj\Debug\02ContentModel.pdb
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\02ContentModel\bin\Debug\02ContentModel.exe.config
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\02ContentModel\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\06ControlDemos\02ContentModel\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\02ContentModel\bin\Debug\02ContentModel.exe.config
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\02ContentModel\bin\Debug\02ContentModel.exe
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\02ContentModel\bin\Debug\02ContentModel.pdb
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\02ContentModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\02ContentModel\obj\Debug\Window1.baml
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\02ContentModel\obj\Debug\Window1.g.cs
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\02ContentModel\obj\Debug\App.g.cs
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\02ContentModel\obj\Debug\02ContentModel_MarkupCompile.cache
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\02ContentModel\obj\Debug\02ContentModel.g.resources
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\02ContentModel\obj\Debug\_02ContentModel.Properties.Resources.resources
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\02ContentModel\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\02ContentModel\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\02ContentModel\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\02ContentModel\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\02ContentModel\obj\Debug\02ContentModel.exe
+C:\Users\per\Documents\Win1\Lektioner\04 Resources, styles, control templates, and themes\ControlDemos\02ContentModel\obj\Debug\02ContentModel.pdb
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\02ContentModel\bin\Debug\02ContentModel.exe.config
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\02ContentModel\bin\Debug\02ContentModel.exe
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\02ContentModel\bin\Debug\02ContentModel.pdb
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\02ContentModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\02ContentModel\obj\Debug\Window1.baml
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\02ContentModel\obj\Debug\Window1.g.cs
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\02ContentModel\obj\Debug\App.g.cs
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\02ContentModel\obj\Debug\02ContentModel_MarkupCompile.cache
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\02ContentModel\obj\Debug\02ContentModel.g.resources
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\02ContentModel\obj\Debug\_02ContentModel.Properties.Resources.resources
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\02ContentModel\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\02ContentModel\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\02ContentModel\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\02ContentModel\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\02ContentModel\obj\Debug\02ContentModel.exe
+C:\Users\per\Documents\Kurser\WIN1\Lektioner\04 Controls og Application\ControlDemos\02ContentModel\obj\Debug\02ContentModel.pdb
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\bin\Debug\02ContentModel.exe.config
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\bin\Debug\02ContentModel.exe
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\bin\Debug\02ContentModel.pdb
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\Window1.baml
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\Window1.g.cs
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\App.g.cs
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\02ContentModel_MarkupCompile.cache
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\02ContentModel.g.resources
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\_02ContentModel.Properties.Resources.resources
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\02ContentModel.exe
+C:\Users\per\Documents\Kurser\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\02ContentModel.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\Window1.baml
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\Window1.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\App.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\02ContentModel.csproj.GenerateResource.Cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\bin\Debug\ContentModel.exe.config
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\bin\Debug\ContentModel.exe
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\bin\Debug\ContentModel.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\02ContentModel.csprojResolveAssemblyReference.cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\ContentModel_MarkupCompile.cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\ContentModel.g.resources
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\ContentModel.Properties.Resources.resources
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\ContentModel.exe
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\04-1 Controls\ControlDemos\02ContentModel\obj\Debug\ContentModel.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\02ContentModel\bin\Debug\ContentModel.exe.config
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\02ContentModel\obj\Debug\ContentModel.exe
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\02ContentModel\obj\Debug\ContentModel.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\02ContentModel\bin\Debug\ContentModel.exe
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\02ContentModel\bin\Debug\ContentModel.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\02ContentModel\obj\Debug\02ContentModel.csprojResolveAssemblyReference.cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\02ContentModel\obj\Debug\Window1.baml
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\02ContentModel\obj\Debug\Window1.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\02ContentModel\obj\Debug\App.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\02ContentModel\obj\Debug\ContentModel_MarkupCompile.cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\02ContentModel\obj\Debug\ContentModel.g.resources
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\02ContentModel\obj\Debug\ContentModel.Properties.Resources.resources
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Lektioner\05 Controls\ControlDemos\02ContentModel\obj\Debug\02ContentModel.csproj.GenerateResource.Cache

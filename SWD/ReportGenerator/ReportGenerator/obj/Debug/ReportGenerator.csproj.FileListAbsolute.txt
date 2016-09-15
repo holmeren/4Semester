@@ -1,0 +1,6 @@
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\SWD\ReportGenerator\ReportGenerator\bin\Debug\ReportGenerator.exe.config
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\SWD\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\SWD\ReportGenerator\ReportGenerator\bin\Debug\ReportGenerator.exe
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\SWD\ReportGenerator\ReportGenerator\bin\Debug\ReportGenerator.pdb
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\SWD\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.exe
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\SWD\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.pdb

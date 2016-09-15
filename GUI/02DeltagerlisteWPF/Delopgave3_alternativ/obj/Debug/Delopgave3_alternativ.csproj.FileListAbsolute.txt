@@ -1,0 +1,13 @@
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3_alternativ\bin\Debug\Delopgave3_alternativ.exe.config
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3_alternativ\bin\Debug\Delopgave3_alternativ.exe
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3_alternativ\bin\Debug\Delopgave3_alternativ.pdb
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3_alternativ\obj\Debug\Delopgave3_alternativ.csprojResolveAssemblyReference.cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3_alternativ\obj\Debug\MainWindow.baml
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3_alternativ\obj\Debug\MainWindow.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3_alternativ\obj\Debug\App.g.cs
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3_alternativ\obj\Debug\Delopgave3_alternativ_MarkupCompile.cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3_alternativ\obj\Debug\Delopgave3_alternativ.g.resources
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3_alternativ\obj\Debug\Delopgave3_alternativ.Properties.Resources.resources
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3_alternativ\obj\Debug\Delopgave3_alternativ.csproj.GenerateResource.Cache
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3_alternativ\obj\Debug\Delopgave3_alternativ.exe
+C:\Users\PoulEjnar\Documents\Courses\I4GUI\Solutions\02bDeltagerlisteWPF\Delopgave3_alternativ\obj\Debug\Delopgave3_alternativ.pdb

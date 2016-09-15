@@ -1,0 +1,14 @@
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\Delopgave11\bin\Debug\Delopgave11.exe.config
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\Delopgave11\bin\Debug\Delopgave11.exe
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\Delopgave11\bin\Debug\Delopgave11.pdb
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\Delopgave11\obj\Debug\Delopgave11.csprojResolveAssemblyReference.cache
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\Delopgave11\obj\Debug\MainWindow.g.cs
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\Delopgave11\obj\Debug\App.g.cs
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\Delopgave11\obj\Debug\Delopgave11_MarkupCompile.cache
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\Delopgave11\obj\Debug\Delopgave11_MarkupCompile.lref
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\Delopgave11\obj\Debug\MainWindow.baml
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\Delopgave11\obj\Debug\Delopgave11.g.resources
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\Delopgave11\obj\Debug\Delopgave11.Properties.Resources.resources
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\Delopgave11\obj\Debug\Delopgave11.csproj.GenerateResource.Cache
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\Delopgave11\obj\Debug\Delopgave11.exe
+C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\Delopgave11\obj\Debug\Delopgave11.pdb

@@ -1,0 +1,13 @@
+09-09-2016 08:38:58	This log contains information about the import operation of the script 'instnwnd.sql' into project 'DABOpgave3' on computer 'HOLM' by user'Søren.
+09-09-2016 08:38:58	Started importing file: C:\Users\Søren\Downloads\instnwnd.sql 
+09-09-2016 08:38:58	File name C:\Users\Søren\Downloads\instnwnd.sql (size: 2689636)
+09-09-2016 08:38:58	Parsing import script
+09-09-2016 08:38:59	Total number of batches in script: 188
+09-09-2016 08:38:59	Total number of statements in script: 62
+09-09-2016 08:38:59	The script was successfully imported into the project.
+09-09-2016 08:38:59	Analyzing schema objects...
+09-09-2016 08:38:59	Scanning project for duplicate elements
+09-09-2016 08:38:59	Finished duplicate element processing
+09-09-2016 08:39:00	In the script that you provided to the import operation, one or more statements were not fully understood. These statements were moved to the ScriptsIgnoredOnImport.sql file. Review the file contents for additional information.
+09-09-2016 08:39:00	A summary of the import was saved to the following location: C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\DAB\DABOpgave3\DABOpgave3\Import Script Logs\instnwnd_sql_20160909063858.log
+09-09-2016 08:39:00	Click Finish to continue...
