@@ -53,3 +53,12 @@ C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\HullLøsning
 C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\HullLøsningsforslag\03bHullSpeedEx\Lab1\obj\Debug\Lab1.g.resources
 C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\HullLøsningsforslag\03bHullSpeedEx\Lab1\obj\Debug\Lab1.Properties.Resources.resources
 C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\HullLøsningsforslag\03bHullSpeedEx\Lab1\obj\Debug\Lab1.csproj.GenerateResource.Cache
+C:\Users\Søren Holm\Desktop\Skole\4Semester\GUI\HullLøsningsforslag\03bHullSpeedEx\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\Søren Holm\Desktop\Skole\4Semester\GUI\HullLøsningsforslag\03bHullSpeedEx\Lab1\obj\Debug\Lab1.exe
+C:\Users\Søren Holm\Desktop\Skole\4Semester\GUI\HullLøsningsforslag\03bHullSpeedEx\Lab1\obj\Debug\Lab1.pdb
+C:\Users\Søren Holm\Desktop\Skole\4Semester\GUI\HullLøsningsforslag\03bHullSpeedEx\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+C:\Users\Søren Holm\Desktop\Skole\4Semester\GUI\HullLøsningsforslag\03bHullSpeedEx\Lab1\obj\Debug\MainWindow.baml
+C:\Users\Søren Holm\Desktop\Skole\4Semester\GUI\HullLøsningsforslag\03bHullSpeedEx\Lab1\obj\Debug\MainWindow.g.cs
+C:\Users\Søren Holm\Desktop\Skole\4Semester\GUI\HullLøsningsforslag\03bHullSpeedEx\Lab1\obj\Debug\App.g.cs
+C:\Users\Søren Holm\Desktop\Skole\4Semester\GUI\HullLøsningsforslag\03bHullSpeedEx\Lab1\obj\Debug\Lab1_MarkupCompile.cache
+C:\Users\Søren Holm\Desktop\Skole\4Semester\GUI\HullLøsningsforslag\03bHullSpeedEx\Lab1\obj\Debug\Lab1.g.resources
