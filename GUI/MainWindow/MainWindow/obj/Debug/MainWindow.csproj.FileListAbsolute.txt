@@ -1,6 +1,0 @@
-C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\MainWindow\MainWindow\bin\Debug\MainWindow.exe.config
-C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\MainWindow\MainWindow\obj\Debug\MainWindow.csprojResolveAssemblyReference.cache
-C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\MainWindow\MainWindow\obj\Debug\MainWindow.g.cs
-C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\MainWindow\MainWindow\obj\Debug\App.g.cs
-C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\MainWindow\MainWindow\obj\Debug\MainWindow_MarkupCompile.cache
-C:\Users\Søren\Documents\Visual Studio 2015\Projects\4Semester\GUI\MainWindow\MainWindow\obj\Debug\MainWindow_MarkupCompile.lref

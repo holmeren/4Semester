@@ -1,5 +1,0 @@
-C:\Users\Søren\Documents\Visual Studio 2015\Projects\DOA\4Semester\Interfaces1\DoStuff\bin\Debug\DoStuff.dll
-C:\Users\Søren\Documents\Visual Studio 2015\Projects\DOA\4Semester\Interfaces1\DoStuff\bin\Debug\DoStuff.pdb
-C:\Users\Søren\Documents\Visual Studio 2015\Projects\DOA\4Semester\Interfaces1\DoStuff\obj\Debug\DoStuff.csprojResolveAssemblyReference.cache
-C:\Users\Søren\Documents\Visual Studio 2015\Projects\DOA\4Semester\Interfaces1\DoStuff\obj\Debug\DoStuff.dll
-C:\Users\Søren\Documents\Visual Studio 2015\Projects\DOA\4Semester\Interfaces1\DoStuff\obj\Debug\DoStuff.pdb
