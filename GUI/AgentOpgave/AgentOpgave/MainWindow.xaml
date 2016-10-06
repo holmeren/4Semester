@@ -9,21 +9,31 @@
         Title="MainWindow" Height="350" Width="648.2">
     <Window.Resources>
         <i4Gui:Agents x:Key="agents" />
-        <SolidColorBrush x:Key="myBrush" Color="White">
+        <SolidColorBrush x:Key="myBrush" Color="Bisque">
         </SolidColorBrush>
+
+
+        
+        <!--Label style-->
+        <Style TargetType="{x:Type Label}">
+            <Style.Setters>
+                    <Setter Property="FontFamily" Value="Times New Roman"/>
+                <Setter Property="Foreground" Value="Turquoise"/>
+            </Style.Setters>
+        </Style>
     </Window.Resources>
     <Window.DataContext>
         <i4Gui:Agents />
     </Window.DataContext>
-    <Grid Background="{DynamicResource myBrush}" x:Name="myGrid">
+    <Grid Background="{DynamicResource ResourceKey=myBrush}" x:Name="myGrid">
         <Label x:Name="label" Content="Id" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.962,-0.773"/>
         <Label x:Name="label1" Content="CodeName" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label2" Content="Speciality" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label3" Content="Assignment" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="105,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="{Binding Path=Speciality}" />
-        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="23" Margin="105,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="{Binding Path=CodeName}"/>
-        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="23" Margin="105,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="{Binding Path=ID}"/>
-        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Height="79" Margin="105,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="{Binding Path=Assignment}"/>
+        <TextBox Name="textBox" HorizontalAlignment="Left" Height="23" Margin="105,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="{Binding Path=Speciality}" Style="{StaticResource TextboxStyle}"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="23" Margin="105,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="{Binding Path=CodeName}"  Style="{StaticResource JamesBondStyle}"/>
+        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="23" Margin="105,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="{Binding Path=ID}" Style="{StaticResource JamesBondStyle}"/>
+        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Height="79" Margin="105,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="{Binding Path=Assignment}" Style="{StaticResource TextboxStyle}"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="260,87,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Text="{Binding Path=ID}"/>
         <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="260,113,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Text="{Binding Path=CodeName}"/>
         <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="260,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="{Binding Path=Speciality}"/>
@@ -45,7 +55,7 @@
         <Button x:Name="Next" Content="Next" HorizontalAlignment="Left" Margin="185,261,0,0" VerticalAlignment="Top" Width="75" Click="Next_Click"/>
         <Button x:Name="AddButton" Content="Add" HorizontalAlignment="Left" Margin="125,290,0,0" VerticalAlignment="Top" Width="75" Click="AddButton_Click"/>
         <DockPanel Margin="0,0,236.6,270.8">
-            <Menu DockPanel.Dock="Top" Height="20">
+            <Menu DockPanel.Dock="Top" Height="20" Margin="0,0,-241,0">
                 <MenuItem Header="File">
                     <MenuItem Header="_New" Command="{Binding NewFileCommand}"/>
                     <MenuItem Header="_Open" Command="{Binding OpenFileCommand}" CommandParameter="{Binding ElementName=textBox1, Path=Text}"/>
@@ -60,17 +70,25 @@
                     <MenuItem Header="_Delete" Command="{Binding DeleteCommand}"/>
                 </MenuItem>
                 <MenuItem Header="Color">
-                    <MenuItem x:Name="Green" Header="Green" Click="Green_Click"  />
-                    <MenuItem x:Name="Blue" Header="Blue" Click="Blue_Click" />
-                    <MenuItem Click="Red_Click"  Header="Red" />
+                    <MenuItem Header="_Green" Command="{Binding ColorCommand}" CommandParameter="Green"  />
+                    <MenuItem Header="Blue" Command="{Binding ColorCommand}" CommandParameter="Blue" />
+                    <MenuItem Header="Red" Command="{Binding ColorCommand}" CommandParameter="Red" />
                 </MenuItem>
             </Menu>
-            <ToolBarTray DockPanel.Dock="Top">
-                <ToolBar Margin="0,0,-0.4,0">
-                    <Button Command="{Binding AddCommand}" Content="New"/>
-                    <Button Command="{Binding DeleteCommand}" Content="Delete"/>
-                    <Button Command="{Binding PrevCommand}" Content="Prev"/>
-                    <Button Command="{Binding NextCommand}" Content="Next"/>
+            <ToolBarTray DockPanel.Dock="Top" Height="auto" Margin="0,0,-241,0">
+                <ToolBar Height="28">
+                    <Button Command="{Binding AddCommand}">
+                        <Image Source="Images/Portal1.jpg" Stretch="Uniform"/>
+                    </Button>
+                    <Button Command="{Binding DeleteCommand}" >
+                        <Image Source="Images/Portal2.jpg" Stretch="Uniform"/>
+                    </Button>
+                    <Button Command="{Binding PrevCommand}" >
+                        <Image Source="Images/Left.jpg" Stretch="Uniform"/>
+                    </Button>
+                    <Button Command="{Binding NextCommand}">
+                        <Image Source="Images/Right.jpg" Stretch="Uniform"/>
+                    </Button>
                 </ToolBar>
             </ToolBarTray>
         </DockPanel>
@@ -80,7 +98,7 @@
             <StatusBarItem Content="Agents Count:" />
             <StatusBarItem Name="sbiAgentsCount" Width="40"
                            Content="{Binding Path=Count}" />
-            <StatusBarItem Name="sbiDateTime" HorizontalAlignment="Right">
+            <StatusBarItem Name="sbiDateTime" HorizontalAlignment="Center">
                 <StackPanel Orientation="Horizontal" Name="spClock">
                     <TextBlock Margin="4,0" Name="tblkDate" Text="{Binding Path=Date}" />
                     <TextBlock Margin="4,0" Name="tblkTime" Text="{Binding Path=Time}" />

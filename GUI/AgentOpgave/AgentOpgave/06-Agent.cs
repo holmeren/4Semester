@@ -232,6 +232,32 @@ namespace I4GUI
             // Application.Current.Shutdown();
         }
 
+        ICommand _ColorCommand;
+        public ICommand ColorCommand
+        {
+            get { return _ColorCommand ?? (_ColorCommand = new RelayCommand<String>(ColorCommand_Execute)); }
+        }
+
+        private void ColorCommand_Execute(String colorStr)
+        {
+            SolidColorBrush newBrush = SystemColors.WindowBrush; // Default color
+
+            try
+            {
+                if (colorStr != null)
+                {
+                    if (colorStr != "Default")
+                        newBrush = new SolidColorBrush((Color)ColorConverter.ConvertFromString(colorStr));
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Unknown color name, default color is used", "Program error!");
+            }
+
+            Application.Current.MainWindow.Resources["myBrush"] = newBrush;
+        }
+
     };  // Just to reference it from xaml
 
    

@@ -52,30 +52,7 @@ namespace AgentOpgave
             listBox.SelectedIndex = listBox.Items.Count - 1;
         }
 
-        private void Green_Click(object sender, RoutedEventArgs e)
-        {
-            Color color = Color.FromScRgb(1,0,1,0) ;
-            
-            Brush newBrush = new SolidColorBrush(color);
-            this.Resources["myBrush"] = newBrush;
-
-        }
-
-        private void Blue_Click(object sender, RoutedEventArgs e)
-        {
-            Color color = Color.FromScRgb(1, 0, 0, 1);
-
-            Brush newBrush = new SolidColorBrush(color);
-            this.Resources["myBrush"] = newBrush;
-        }
-
-        private void Red_Click(object sender, RoutedEventArgs e)
-        {
-            Color color = Color.FromScRgb(1, 1, 0, 0);
-
-            Brush newBrush = new SolidColorBrush(color);
-            this.Resources["myBrush"] = newBrush;
-        }
+      
     }
 
 }

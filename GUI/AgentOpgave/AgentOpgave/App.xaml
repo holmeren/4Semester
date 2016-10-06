@@ -4,6 +4,26 @@
              xmlns:local="clr-namespace:AgentOpgave"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <!--Textbox style-->
+        <Style x:Key="TextboxStyle" TargetType="{x:Type TextBox}">
+            <Style.Setters>
+                <Setter Property="Foreground" Value="Green"/>
+                <Setter Property="Background" Value="Red"/>
+            </Style.Setters>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Black"/>
+                </Trigger>
+               
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="JamesBondStyle" TargetType="{x:Type TextBox}" BasedOn="{StaticResource TextboxStyle}">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=ID}" Value="007">
+                    <Setter Property="Background" Value="Gold"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+               
     </Application.Resources>
 </Application>
