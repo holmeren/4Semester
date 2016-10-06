@@ -1,0 +1,63 @@
+﻿<Window x:Class="BabyOpgave.MainWindow"
+        Loaded="MainWindow_OnLoaded"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BabyOpgave"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="476.3" Width="525">
+    <Grid Margin="0,0,0.4,0.4">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="215"></RowDefinition>
+            <RowDefinition Height="221.8"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" ></ColumnDefinition>
+                <ColumnDefinition Width="auto" ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60"></ColumnDefinition>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <ListBox x:Name="listBox"  HorizontalAlignment="Left" Grid.Row="0"  Height="175" Margin="123,30,0,0" VerticalAlignment="Top" Width="369" SelectionChanged="listBox_SelectionChanged"/>
+
+        <ListBox x:Name="listBox1" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="0" Height="175" SelectionMode="Single" Margin="10,30,0,0" VerticalAlignment="Top" Width="72" SelectionChanged="listBox1_SelectionChanged">
+            <ListBoxItem>1900</ListBoxItem>
+            <ListBoxItem>1910</ListBoxItem>
+            <ListBoxItem>1920</ListBoxItem>
+            <ListBoxItem>1930</ListBoxItem>
+            <ListBoxItem>1940</ListBoxItem>
+            <ListBoxItem>1950</ListBoxItem>
+            <ListBoxItem>1960</ListBoxItem>
+            <ListBoxItem>1970</ListBoxItem>
+            <ListBoxItem>1980</ListBoxItem>
+            <ListBoxItem>1990</ListBoxItem>
+            <ListBoxItem>2000</ListBoxItem>
+            <ListBoxItem />
+        </ListBox>
+
+
+        <Label x:Name="label" Content="Top 10 baby names in selected decade" HorizontalAlignment="Left" Margin="123,4,0,0" VerticalAlignment="Top" Width="318"/>
+        <Label x:Name="label1" Content="Decade" HorizontalAlignment="Left" Margin="10,4,0,0" VerticalAlignment="Top"/>
+        <GroupBox x:Name="groupBox" Header="Search" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Height="206" Width="325" Grid.Row="1">
+            <TextBox x:Name="searchBox" HorizontalAlignment="Left" Height="23" Margin="55,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged"/>
+
+        </GroupBox>
+        <Label x:Name="label2" Content="Name" HorizontalAlignment="Left" Margin="20,45,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <Button x:Name="Search" Content="Button" HorizontalAlignment="Left" Margin="75,90,0,0" VerticalAlignment="Top" Width="75" Click="button_Click" Grid.Row="1"/>
+        <ListBox x:Name="listBox2" HorizontalAlignment="Left" Height="196" Margin="355,25,0,0" VerticalAlignment="Top" Width="137" Grid.Row="1"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="181,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Red" Grid.Row="1"/>
+        <Label x:Name="label3" Content="Year" HorizontalAlignment="Left" Margin="355,214,0,0" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Label x:Name="label4" Content="Rank" HorizontalAlignment="Left" Margin="392,214,0,0" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Label x:Name="label5" Content="Average ranking" HorizontalAlignment="Left" Margin="75,114,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <Label x:Name="label6" Content="Trend" HorizontalAlignment="Left" Margin="75,154,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="181,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="181,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="1"/>
+
+    </Grid>
+</Window>
