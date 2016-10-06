@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -8,22 +8,28 @@ using System.Threading.Tasks;
 using MvvmFoundation.Wpf;
 using System.Windows.Input;
 using System.Runtime.CompilerServices;
-using System.Windows.Controls;
-using System.Windows.Media;
 using System.Windows;
 using System.Xml.Serialization;
 using System.IO;
 
-namespace I4GUI
+namespace AgentAssignment
 {
+    // 
     public class Agents : ObservableCollection<Agent>, INotifyPropertyChanged
     {
         string filename = "";
+
         public Agents()
         {
-            Add(new Agent("007", "James Bond", "Unge damer", "ForLols"));
-            Add(new Agent("911", "George Bush", "Fly", "Twin Towers"));
+            if ((bool)(DesignerProperties.IsInDesignModeProperty.GetMetadata(typeof(DependencyObject)).DefaultValue))
+            {
+                // In Design mode
+                Add(new Agent("001", "Nina", "Assassination", "UpperVolta"));
+                Add(new Agent("007", "James Bond", "Martinis", "North Korea"));
+            }
         }
+
+        #region Commands
 
         ICommand _addCommand;
         public ICommand AddCommand
@@ -59,18 +65,24 @@ namespace I4GUI
                 return false;
         }
 
-
-
-     
-
-
-        ICommand _PrevCommand;
-        public ICommand PrevCommand
+        ICommand _nextCommand;
+        public ICommand NextCommand
         {
-            get { return _PrevCommand ?? (_PrevCommand = new RelayCommand(PrevCommandExecute, PreviusCommandCanExecute)); }
+            get
+            {
+                return _nextCommand ?? (_nextCommand = new RelayCommand(
+                    () => ++CurrentIndex,
+                    () => CurrentIndex < (Count - 1)));
+            }
         }
 
-        private void PrevCommandExecute()
+        ICommand _PreviusCommand;
+        public ICommand PreviusCommand
+        {
+            get { return _PreviusCommand ?? (_PreviusCommand = new RelayCommand(PreviusCommandExecute, PreviusCommandCanExecute)); }
+        }
+
+        private void PreviusCommandExecute()
         {
             if (CurrentIndex > 0)
                 --CurrentIndex;
@@ -84,42 +96,6 @@ namespace I4GUI
                 return false;
         }
 
-        ICommand _nextCommand;
-        public ICommand NextCommand
-        {
-            get
-            {
-                return _nextCommand ?? (_nextCommand = new RelayCommand(
-                    () => ++CurrentIndex,
-                    () => CurrentIndex < (Count - 1)));
-            }
-        }
-
-        private int currentIndex = -1;
-        public int CurrentIndex
-        {
-            get { return currentIndex; }
-            set
-            {
-                if (currentIndex != value)
-                {
-                    currentIndex = value;
-                    NotifyPropertyChanged();
-                }
-            }
-        }
-
-        public new event PropertyChangedEventHandler PropertyChanged;
-
-        private void NotifyPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            var handler = PropertyChanged;
-            if (handler != null)
-            {
-                handler(this, new PropertyChangedEventArgs(propertyName));
-            }
-        }
-
         ICommand _SaveAsCommand;
         public ICommand SaveAsCommand
         {
@@ -128,10 +104,10 @@ namespace I4GUI
 
         private void SaveAsCommand_Execute(string argFilename)
         {
-            if(argFilename =="")
+            if (argFilename == "")
             {
-                MessageBox.Show("You must enter a file name","Unable to save file",
-                MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                MessageBox.Show("You must enter a file name in the File Name textbox!", "Unable to save file",
+                    MessageBoxButton.OK, MessageBoxImage.Exclamation);
             }
             else
             {
@@ -148,10 +124,10 @@ namespace I4GUI
 
         private void SaveFileCommand_Execute()
         {
+            // Create an instance of the XmlSerializer class and specify the type of object to serialize.
             XmlSerializer serializer = new XmlSerializer(typeof(Agents));
             TextWriter writer = new StreamWriter(filename);
-
-            //gemmer alle agenter
+            // Serialize all the agents.
             serializer.Serialize(writer, this);
             writer.Close();
         }
@@ -177,6 +153,7 @@ namespace I4GUI
                 filename = "";
             }
         }
+
 
         ICommand _OpenFileCommand;
         public ICommand OpenFileCommand
@@ -231,76 +208,39 @@ namespace I4GUI
             // Could use the line below instead
             // Application.Current.Shutdown();
         }
+        #endregion // Commands
 
-    };  // Just to reference it from xaml
+        #region Properties
 
-   
-   [Serializable]
-   public class Agent
-   {
-      string id;
-      string codeName;
-      string speciality;
-      string assignment;
+        int currentIndex = -1;
 
-      public Agent()
-      {
-      }
+        public int CurrentIndex
+        {
+            get { return currentIndex; }
+            set
+            {
+                if (currentIndex != value)
+                {
+                    currentIndex = value;
+                    NotifyPropertyChanged();
+                }
+            }
+        }
 
-      public Agent(string aId, string aName, string aSpeciality, string aAssignment)
-      {
-         id = aId;
-         codeName = aName;
-         speciality = aSpeciality;
-         assignment = aAssignment;
-      }
+        #endregion
 
-      public string ID
-      {
-         get
-         {
-            return id;
-         }
-         set
-         {
-            id = value;
-         }
-      }
+        #region INotifyPropertyChanged implementation
 
-      public string CodeName
-      {
-         get
-         {
-            return codeName;
-         }
-         set
-         {
-            codeName = value;
-         }
-      }
+        public new event PropertyChangedEventHandler PropertyChanged;
 
-      public string Speciality
-      {
-         get
-         {
-            return speciality;
-         }
-         set
-         {
-            speciality = value;
-         }
-      }
-
-      public string Assignment
-      {
-         get
-         {
-            return assignment;
-         }
-         set
-         {
-            assignment = value;
-         }
-      }
-   }
+        private void NotifyPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            var handler = PropertyChanged;
+            if (handler != null)
+            {
+                handler(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
+        #endregion
+    }
 }

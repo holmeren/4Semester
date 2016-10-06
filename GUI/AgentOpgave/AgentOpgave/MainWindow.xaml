@@ -27,7 +27,6 @@
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="260,87,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Text="{Binding Path=ID}"/>
         <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="260,113,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Text="{Binding Path=CodeName}"/>
         <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="260,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="{Binding Path=Speciality}"/>
-        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Margin="135,175,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Text="{Binding Path=Assignment}"/>
         <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="238" Margin="345,57,0,0" VerticalAlignment="Top" Width="285"  ItemsSource="{Binding}" IsSynchronizedWithCurrentItem="True" SelectedIndex="{Binding Path=CurrentIndex}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
@@ -47,7 +46,13 @@
         <Button x:Name="AddButton" Content="Add" HorizontalAlignment="Left" Margin="125,290,0,0" VerticalAlignment="Top" Width="75" Click="AddButton_Click"/>
         <DockPanel Margin="0,0,236.6,270.8">
             <Menu DockPanel.Dock="Top" Height="20">
-                <MenuItem Header="File"/>
+                <MenuItem Header="File">
+                    <MenuItem Header="_New" Command="{Binding NewFileCommand}"/>
+                    <MenuItem Header="_Open" Command="{Binding OpenFileCommand}" CommandParameter="{Binding ElementName=textBox1, Path=Text}"/>
+                    <MenuItem Header="_Save" Command="{Binding SaveCommand}"/>
+                    <MenuItem Header="Save _As" Command="{Binding SaveAsCommand}" CommandParameter="{Binding ElementName=textBox1, Path=Text}"/>
+                    <MenuItem Header="E_xit" Command="{Binding CloseAppCommand}"/>
+                </MenuItem>
                 <MenuItem Header="Agetns">
                     <MenuItem Header="_Previous" Command="{Binding PrevCommand}"/>
                     <MenuItem Header="_Next" Command="{Binding NextCommand}"/>
@@ -69,6 +74,18 @@
                 </ToolBar>
             </ToolBarTray>
         </DockPanel>
-
+        <Label x:Name="label4" Content="File Name:" HorizontalAlignment="Left" Margin="162,22,0,0" VerticalAlignment="Top" Width="73"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="235,22,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" />
+        <StatusBar VerticalAlignment="Bottom" Background="AliceBlue">
+            <StatusBarItem Content="Agents Count:" />
+            <StatusBarItem Name="sbiAgentsCount" Width="40"
+                           Content="{Binding Path=Count}" />
+            <StatusBarItem Name="sbiDateTime" HorizontalAlignment="Right">
+                <StackPanel Orientation="Horizontal" Name="spClock">
+                    <TextBlock Margin="4,0" Name="tblkDate" Text="{Binding Path=Date}" />
+                    <TextBlock Margin="4,0" Name="tblkTime" Text="{Binding Path=Time}" />
+                </StackPanel>
+            </StatusBarItem>
+        </StatusBar>
     </Grid>
 </Window>
