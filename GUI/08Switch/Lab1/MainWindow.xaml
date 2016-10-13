@@ -1,0 +1,59 @@
+﻿<Window x:Class="Lab1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Switch Lab Part 1 - No C#" Height="300" Width="300">
+    <Window.Resources>
+        <Image Source="/Images/SwitchDown.bmp" x:Key="ImageSwitchDown" />
+        <Image Source="/Images/SwitchUp.bmp" x:Key="ImageSwitchUp" />
+        <BitmapImage UriSource="/Images/LightON.bmp" x:Key="ImageLightON" />
+        <BitmapImage UriSource="/Images/LightOFF.bmp" x:Key="ImageLightOFF" />
+
+        <!--Uses a ControlTemplate to get rid of the border around the button-->
+        <ControlTemplate x:Key="SwitchTemplate"  
+                         TargetType="{x:Type ToggleButton}">
+
+            <ContentPresenter />
+
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsChecked" Value="true">
+                    <Setter Property="Content" Value="{DynamicResource ImageSwitchDown}" />
+                </Trigger>
+                <Trigger Property="IsChecked" Value="false">
+                    <Setter Property="Content" Value="{DynamicResource ImageSwitchUp}" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <Style x:Key="bulbStyle" TargetType="{x:Type Image}">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding ElementName=switch, Path=IsChecked}" Value="True">
+                    <Setter Property="Source" Value="{DynamicResource ImageLightON}"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding ElementName=switch, Path=IsChecked}" Value="False">
+                    <Setter Property="Source" Value="{DynamicResource ImageLightOFF}"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="{x:Type Polyline}">
+            <Setter Property="Stroke" Value="Black" />
+            <Setter Property="StrokeThickness" Value="2" />
+        </Style>
+    </Window.Resources>
+
+    <Canvas Name="mainCanvas">
+        <!-- Draw images of switch -->
+        <ToggleButton Name="switch" Template="{StaticResource SwitchTemplate}" 
+                      Canvas.Left="150" Canvas.Top="100" />
+
+        <!-- Draw images of lamp -->
+        <Image Name="imLamp" Style="{StaticResource bulbStyle}" 
+               Canvas.Left="70" Canvas.Top="5" 
+               />
+
+        <!-- Connect wires -->
+        <Polyline Points="0,79 109,79 109,76" />
+        <Polyline Points="116,76 116,79 185,79 185,100" />
+        <Polyline Points="171,164 171,174 38,174 38,89 0,89"/>
+    </Canvas>
+</Window>

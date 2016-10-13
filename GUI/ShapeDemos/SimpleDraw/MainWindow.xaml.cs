@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Media;
+using System.Windows.Threading;
+
 //using System.Windows.Forms;
 //using System.Drawing;
 
@@ -19,6 +19,7 @@ using System.Windows.Shapes;
 
 namespace SimpleDraw
 {
+    public enum DrawingTool { Line, Ellipsis, Rectangle };
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -28,9 +29,9 @@ namespace SimpleDraw
         private bool drag = false;
         Point startPos, lastPos;
         private double wid, hei;
+        DrawingTool tool;
+        Shape myShape;
 
-
-       
         public MainWindow()
         {
             InitializeComponent();
@@ -60,15 +61,43 @@ namespace SimpleDraw
 
         private void myMouseMove(object sender, MouseEventArgs e)
         {
+            lastPos = e.GetPosition(myCanvas);
            if(drag)
             {
-                var newX = (startPos.X + (e.GetPosition(myCanvas).X - startPos.X));
-                var newY = (startPos.Y + (e.GetPosition(myCanvas).Y - startPos.Y));
-                Point offset = new Point((startPos.X - lastPos.X), (startPos.Y - lastPos.Y));
-                hei = newY - startPos.Y;
-                wid = newX - startPos.X;
-                
-               
+                if (tool != DrawingTool.Line)
+                {
+                    var newX = (startPos.X + (e.GetPosition(myCanvas).X - startPos.X));
+                    var newY = (startPos.Y + (e.GetPosition(myCanvas).Y - startPos.Y));
+                    Point offset = new Point((startPos.X - lastPos.X), (startPos.Y - lastPos.Y));
+                    hei = newY - startPos.Y;
+                    wid = newX - startPos.X;
+
+                    if (hei <= 0)
+                    {
+                        hei = hei * -1;
+                        
+                        
+                        Canvas.SetTop(myShape, lastPos.Y);
+                    }
+
+
+                    if (wid <= 0)
+                    {
+                        wid = wid * -1;
+                       
+                        Canvas.SetLeft(myShape, lastPos.X);
+                    }
+
+                    myShape.Width = wid;
+                    myShape.Height = hei;
+                }
+                else
+                {
+                    Line line = myShape as Line;
+                    line.X2 = lastPos.X;
+                    line.Y2 = lastPos.Y;
+                    
+                }
                 
             }
         }
@@ -77,11 +106,7 @@ namespace SimpleDraw
         {
             drag = true;
             startPos = e.GetPosition(myCanvas);
-            
-        }
 
-        private void myMouseUp(object sender, MouseButtonEventArgs e)
-        {
             if (hei <= 0)
             {
                 hei = hei * -1;
@@ -94,55 +119,69 @@ namespace SimpleDraw
                 wid = wid * -1;
                 startPos.X = e.GetPosition(myCanvas).X;
             }
-            
-            if (Keyboard.Modifiers == ModifierKeys.Control)
+
+            if ((Keyboard.Modifiers & ModifierKeys.Control) != 0
+               | (Keyboard.Modifiers & ModifierKeys.Alt) != 0)
             {
+                if (Keyboard.Modifiers == ModifierKeys.Control)
+                {
+                    tool = DrawingTool.Ellipsis;
+                    myShape = new Ellipse();
 
-                Ellipse elp1 = new Ellipse();
-                myCanvas.Children.Add(elp1);
-                Canvas.SetLeft(elp1, startPos.X);
-                Canvas.SetTop(elp1, startPos.Y);
-                elp1.Fill = Brushes.Indigo;
-                elp1.Width = wid;
-                elp1.Height = hei;
-                elp1.Stroke = Brushes.Pink;
-                elp1.StrokeThickness = 4;
+                    Canvas.SetLeft(myShape, startPos.X);
+                    Canvas.SetTop(myShape, startPos.Y);
+                    myShape.Fill = Brushes.Indigo;
+                    myShape.Width = wid;
+                    myShape.Height = hei;
+                    myShape.Stroke = Brushes.Pink;
+                    myShape.StrokeThickness = 4;
+                    CaptureMouse();
+                    myCanvas.Children.Add(myShape);
+                }
+                else if (Keyboard.Modifiers == ModifierKeys.Alt)
+                {
+                    tool = DrawingTool.Rectangle;
+                    myShape = new Rectangle();
 
-            }
-            else if (Keyboard.Modifiers == ModifierKeys.Alt)
-            {
+                    
+                    myShape.Fill = Brushes.Indigo;
 
-                Rectangle rec1 = new Rectangle();
-                myCanvas.Children.Add(rec1);
-                Canvas.SetLeft(rec1, startPos.X);
-                Canvas.SetTop(rec1, startPos.Y);
-                rec1.Fill = Brushes.Indigo;
-
-                rec1.Width = wid;
-                rec1.Height = hei;
-                rec1.Stroke = Brushes.Pink;
-                rec1.StrokeThickness = 4;
+                    myShape.Width = wid;
+                    myShape.Height = hei;
+                    myShape.Stroke = Brushes.Pink;
+                    myShape.StrokeThickness = 4;
+                    CaptureMouse();
+                    myCanvas.Children.Add(myShape);
 
 
+                }
             }
             else
             {
+                tool = DrawingTool.Line;
                 Line line1 = new Line();
-                myCanvas.Children.Add(line1);
-                Canvas.SetLeft(line1, startPos.X);
-                Canvas.SetTop(line1, startPos.Y);
+
+                
                 line1.Fill = Brushes.Indigo;
 
-                line1.X1 = wid;
-                line1.Y1 = hei;
+                line1.X1 = startPos.X;
+                line1.Y1 = lastPos.Y;
+                line1.X2 = lastPos.X;
+                line1.Y2 = lastPos.Y;
                 line1.Stroke = Brushes.Pink;
                 line1.StrokeThickness = 4;
+                myShape = line1;
+                myCanvas.Children.Add(myShape);
             }
+            
+
+        }
+
+        private void myMouseUp(object sender, MouseButtonEventArgs e)
+        {
             drag = false;
-            Cursor = Cursors.Arrow;
-            Mouse.Capture(null);
-            hei = 40;
-            wid = 40;
+            ReleaseMouseCapture();
+
         }
     }
 }
