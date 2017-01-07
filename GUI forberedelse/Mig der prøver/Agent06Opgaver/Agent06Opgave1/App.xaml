@@ -4,6 +4,23 @@
              xmlns:local="clr-namespace:Agent06Opgave1"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style x:Key="textBoxStyle" TargetType="{x:Type TextBox}">
+            <Style.Setters>
+                <Setter Property="Background" Value="Aqua"></Setter>
+            </Style.Setters>
+        </Style>
+
+        <Style TargetType="{x:Type Label}">
+            <Style.Setters>
+                <Setter Property="Foreground" Value="BurlyWood"></Setter>
+            </Style.Setters>
+        </Style>
+        <Style x:Key="JamesBond" TargetType="{x:Type TextBox}">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=ID}"  Value="007">
+                    <Setter Property="Foreground" Value="Gold"></Setter>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
     </Application.Resources>
 </Application>

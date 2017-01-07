@@ -1,0 +1,49 @@
+﻿<Window x:Class="Vittigheder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vittigheder.ViewModels"
+        xmlns:local2="clr-namespace:Vittigheder"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <local2:ListOfJokesToStringConverter x:Key="ListOfJokesToStringConverter"/>
+        <Style TargetType="Label">
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+        <Style TargetType="Button">
+            <Style.Setters>
+            <Setter Property="Background" Value="DarkSlateGray"></Setter>
+            </Style.Setters>
+            <Style.Triggers>
+                <Trigger Property="IsFocused" Value="True">
+                    <Setter Property="Background" Value="CadetBlue"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Window.DataContext>
+        <local:JokeViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Billeder/laughing-baby_postcard.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="28">Vittigheder</Label>
+        <Label Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="12">Søg efter vittigheder på kategori</Label>
+        <StackPanel Grid.Row="2" HorizontalAlignment="Center" Orientation="Horizontal">
+            <TextBox Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" Text="{Binding Tag.TagString}"/>
+            <Button Width="80" Margin="5" IsDefault="True" Command="{Binding SearchCategoryCommand}">Søg</Button>
+        </StackPanel>
+        <TextBox Name="CurrentJoke"  Grid.Row="3" HorizontalAlignment="Center" VerticalScrollBarVisibility="Auto" Width="400" VerticalAlignment="Center" FontSize="12" Text="{Binding Path=Jokes,Converter={StaticResource ListOfJokesToStringConverter}}"/>
+        <Button Grid.Row="4" Height="20" Width="120" Command="{Binding AddNewJokeomCommand}">Indtast ny vittighed</Button>
+    </Grid>
+</Window>

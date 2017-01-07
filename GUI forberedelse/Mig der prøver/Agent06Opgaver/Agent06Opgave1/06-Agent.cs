@@ -10,6 +10,11 @@ using System.Windows;
 using System.Windows.Input;
 using System.Xml.Serialization;
 using MvvmFoundation.Wpf;
+using System.Windows.Media;
+
+using Microsoft.Win32; // home of OpenFileDialog and SaveFileDialog
+using System.Windows.Controls; // home of PrintDialog ...
+
 
 namespace I4GUI
 {
@@ -22,7 +27,7 @@ namespace I4GUI
             Add(new Agent("001", "Nina", "Assassination", "UpperVolta"));
             Add(new Agent("007", "James Bond", "Martinis", "North Korea"));
         }
-
+        #region AgentCommands
         ICommand _nyCommand;
 
         public ICommand NyCommand
@@ -33,6 +38,7 @@ namespace I4GUI
         private void AddAgent()
         {
             Add(new Agent());
+            NotifyPropertyChanged("Count");
             CurrentIndex = Count - 1;
         }
 
@@ -92,6 +98,7 @@ namespace I4GUI
             // Application.Current.Shutdown();
         }
         string filename = "";
+       SaveFileDialog saveFileDialog = new SaveFileDialog();
          ICommand _saveAsFileCommand;
 
         public ICommand SaveAsFileCommand
@@ -103,8 +110,10 @@ namespace I4GUI
         {
             if (argFilename == "")
             {
-                MessageBox.Show("You must enter a file name in the File Name textbox!", "Unable to save file",
-                    MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                saveFileDialog.ShowDialog();
+                //MessageBox.Show("You must enter a file name in the File Name textbox!", "Unable to save file",
+                //    MessageBoxButton.OK, MessageBoxImage.Exclamation);
+
             }
             else
             {
@@ -144,8 +153,44 @@ namespace I4GUI
         private void NewFile()
         {
             
+            
         }
 
+        #endregion
+
+        #region StyleCommands
+
+        ICommand _colorCommand;
+
+       public ICommand ColorCommand
+        {
+            get { return _colorCommand ?? (_colorCommand = new RelayCommand<string>(ChangeColor)); }
+        }
+
+        private void ChangeColor(string color)
+        {
+            SolidColorBrush myBrush = new SolidColorBrush((Color)ColorConverter.ConvertFromString("Blue"));
+
+            try
+            {
+                if(color != null)
+                {
+                    myBrush.Color = (Color)ColorConverter.ConvertFromString(color);
+                }
+
+            }
+            catch(Exception)
+            {
+                MessageBox.Show("Default color is used");
+                myBrush.Color = (Color)ColorConverter.ConvertFromString("Blue");
+            }
+
+            Application.Current.MainWindow.Resources["BackgroundColor"] = myBrush;
+        }
+
+        #endregion
+
+        #region prop
         int currentIndex = -1;
 
         public int CurrentIndex
@@ -177,7 +222,10 @@ namespace I4GUI
         }
 
     }
+    #endregion
 
+
+    #region agent
     [Serializable]
     public class Agent
     {
@@ -245,5 +293,6 @@ namespace I4GUI
                 assignment = value;
             }
         }
+        #endregion
     }
 }

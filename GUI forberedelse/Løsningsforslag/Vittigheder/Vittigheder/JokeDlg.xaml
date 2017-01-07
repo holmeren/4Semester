@@ -1,0 +1,39 @@
+﻿<Window x:Class="Vittigheder.JokeDlg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vittigheder"
+        mc:Ignorable="d"
+        Title="JokeDlg" Height="300" Width="300">
+    <Window.Resources>
+        <local:StringToListConverter x:Key="StringToListConverter"/>
+        <RectangleGeometry x:Key="Rect" Rect="20 0 100 20" />
+        <Polygon x:Key="Triangle" Points="5,0 10,10, 0,10" Stroke="Black" Fill="Black" />
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="10*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Center">Hvor har du hørt joken: </Label>
+        <Label Grid.Row="1" Grid.Column="0">Skriv joken:</Label>
+        <Path Grid.Row="2" Grid.Column="0" Fill="Yellow" Stroke="Black" Data="M 30 10 L 100 10 L 100 2 L 125 25 L 100 48 L 100 40 L 30 40 L 30 10"/>
+        
+        <Label Grid.Row="3" Grid.Column="0" VerticalAlignment="Center">Tags (adskilt med komma):</Label>
+        <TextBox Grid.Row="0" Grid.Column="1" Height="30" Margin="3" Text="{Binding Path=Source}"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" Margin="3" Text="{Binding Path=JokeString}"/>
+        
+        <TextBox Grid.Row="3" Grid.Column="1" Margin="3" Height="25" Text="{Binding Path=Tags,Converter={StaticResource StringToListConverter}}"/>
+        
+        <Button Grid.Column="0" HorizontalAlignment="Right" Grid.Row="4" Margin="10" Width="100" IsDefault="True" Click="Button_Click">Tilføj</Button>
+        <Button Grid.Column="1" HorizontalAlignment="Left" Grid.Row="4" Margin="10" Width="100" IsCancel="True">Annuller</Button>
+    </Grid>
+</Window>

@@ -13,6 +13,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using I4GUI;
+using System.Windows.Threading;
+
+
 
 namespace Agent06Opgave1
 {
@@ -21,8 +24,9 @@ namespace Agent06Opgave1
     /// </summary>
     public partial class MainWindow : Window
     {
-        
-        
+        DispatcherTimer timer = new DispatcherTimer();
+        Clock clock = new Clock();
+
 
         public MainWindow()
         {
@@ -31,9 +35,17 @@ namespace Agent06Opgave1
             //btnTilbage.Click += new RoutedEventHandler(btnTilbage_Click);
             //btnNy.Click += new RoutedEventHandler(btnNy_Click);
 
+            myClock.DataContext = clock;
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += new EventHandler(Timer_Tick);
+            timer.Start();
+
+        }
+        void Timer_Tick(object sender, EventArgs e)
+        {
+            clock.Update();
         }
 
-        
 
         //private void btnFrem_Click(object sender, RoutedEventArgs e)
         //{
