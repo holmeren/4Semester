@@ -1,0 +1,60 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using I4GUI;
+
+namespace Agent06Opgave1
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        
+        
+
+        public MainWindow()
+        {
+            InitializeComponent();
+            //btnFrem.Click += new RoutedEventHandler(btnFrem_Click);
+            //btnTilbage.Click += new RoutedEventHandler(btnTilbage_Click);
+            //btnNy.Click += new RoutedEventHandler(btnNy_Click);
+
+        }
+
+        
+
+        //private void btnFrem_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (lbxAgents.SelectedIndex < lbxAgents.Items.Count - 1)
+        //        lbxAgents.SelectedIndex = ++lbxAgents.SelectedIndex;
+        //    e.Handled = true;
+        //}
+
+        //private void btnTilbage_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (lbxAgents.SelectedIndex > 0)
+        //        --lbxAgents.SelectedIndex;
+        //    e.Handled = true;
+        //}
+
+        //private void btnNy_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Agents agents1 = (Agents) this.FindResource("agents");
+        //    agents1.Add(new Agent());
+        //    lbxAgents.SelectedIndex = lbxAgents.Items.Count - 1;
+        //    e.Handled = true;
+        //}
+    }
+}
