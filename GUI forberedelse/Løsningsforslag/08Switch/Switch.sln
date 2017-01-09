@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1", "Lab1\Lab1.csproj", "{72CB299D-705C-4F6C-B24D-AE9FC9523F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2", "Lab2\Lab2.csproj", "{FCCB036A-2C32-4C43-88B2-EA180A3A3096}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6147C187-DBDD-48C9-AF92-693B0BBA317D}"
+	ProjectSection(SolutionItems) = preProject
+		08 Switch.pdf = 08 Switch.pdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3", "Lab3\Lab3.csproj", "{304CE2E9-1B50-4F9F-AC9C-00ED453F6665}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72CB299D-705C-4F6C-B24D-AE9FC9523F18}.Debug|x86.ActiveCfg = Debug|x86
+		{72CB299D-705C-4F6C-B24D-AE9FC9523F18}.Debug|x86.Build.0 = Debug|x86
+		{72CB299D-705C-4F6C-B24D-AE9FC9523F18}.Release|x86.ActiveCfg = Release|x86
+		{72CB299D-705C-4F6C-B24D-AE9FC9523F18}.Release|x86.Build.0 = Release|x86
+		{FCCB036A-2C32-4C43-88B2-EA180A3A3096}.Debug|x86.ActiveCfg = Debug|x86
+		{FCCB036A-2C32-4C43-88B2-EA180A3A3096}.Debug|x86.Build.0 = Debug|x86
+		{FCCB036A-2C32-4C43-88B2-EA180A3A3096}.Release|x86.ActiveCfg = Release|x86
+		{FCCB036A-2C32-4C43-88B2-EA180A3A3096}.Release|x86.Build.0 = Release|x86
+		{304CE2E9-1B50-4F9F-AC9C-00ED453F6665}.Debug|x86.ActiveCfg = Debug|x86
+		{304CE2E9-1B50-4F9F-AC9C-00ED453F6665}.Debug|x86.Build.0 = Debug|x86
+		{304CE2E9-1B50-4F9F-AC9C-00ED453F6665}.Release|x86.ActiveCfg = Release|x86
+		{304CE2E9-1B50-4F9F-AC9C-00ED453F6665}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

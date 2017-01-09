@@ -1,0 +1,74 @@
+﻿<div>
+    <input type="button" id="getText" value="Get text" />
+    <input type="button" id="getTextFail" value="Get text - error" />
+    <input type="button" id="getTextPromise" value="Get text using promises" />
+    <pre id="output">
+    </pre>
+</div>
+@section scripts {
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script>
+        function getURL(url, callback) {
+            var req = new XMLHttpRequest();
+            req.open("GET", url, true);
+            req.addEventListener("load", function () {
+                if (req.status < 400)
+                    callback(req.responseText);
+                else
+                    callback(null, new Error("Request failed: " +
+                                             req.statusText));
+            });
+            req.addEventListener("error", function () {
+                callback(null, new Error("Network error"));
+            });
+            req.send(null);
+        }
+
+        function get(url) {
+            return new Promise(function (succeed, fail) {
+                var req = new XMLHttpRequest();
+                req.open("GET", url, true);
+                req.addEventListener("load", function () {
+                    if (req.status < 400)
+                        succeed(req.responseText);
+                    else
+                        fail(new Error("Request failed: " + req.statusText));
+                });
+                req.addEventListener("error", function () {
+                    fail(new Error("Network error"));
+                });
+                req.send(null);
+            });
+        }
+
+        function getFile(filePath) {
+            getURL(filePath, function (content, error) {
+                if (error != null)
+                    $("#output").text(filePath + ": " + error);
+                else {
+                    $("#output").text(filePath + ": " + content);
+                }
+            });
+        }
+
+        $("#getText").on('click', function () {
+            getFile("files/data.txt");
+        });
+
+        $("#getTextFail").on('click', function () {
+            getFile("files/nodata.txt");
+        });
+
+        $("#getTextPromise").on('click', function () {
+            get("files/data.txt").then(function (text) {
+                // Resolve / succes
+                $("#output").text("data.txt: " + text);
+            }, function (error) {
+                // Reject / error
+                $("#output").text("Failed to fetch data.txt: " + error);
+            });
+        });
+
+
+    </script>
+}

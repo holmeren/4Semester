@@ -13,7 +13,8 @@ using MvvmFoundation.Wpf;
 using System.Windows.Media;
 
 using Microsoft.Win32; // home of OpenFileDialog and SaveFileDialog
-using System.Windows.Controls; // home of PrintDialog ...
+using System.Windows.Controls; // home of PrintDialog ...
+
 
 
 namespace I4GUI

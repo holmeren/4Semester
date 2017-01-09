@@ -1,0 +1,63 @@
+﻿@model List<vittigheder_web3.Models.Joke>
+
+@{
+    ViewBag.Title = "Alle vittigheder";
+}
+<div class="row vertical-offset">
+    <div class="col-md-offset-2 col-md-8">
+        <h2>Browse alle vittigheder her</h2>
+    </div>
+</div>
+
+@foreach (var item in Model)
+{
+    <div class="row vertical-offset">
+        <div class="col-md-3">
+            <p>Id:</p>
+        </div>
+        <div class="col-md-7">
+            @item.Id
+        </div>
+    </div>
+    <div class="row vertical-offset">
+        <div class="col-md-3">
+            <p>Dato:</p>
+        </div>
+        <div class="col-md-7">
+            @item.Date.ToString()
+        </div>
+    </div>
+    <div class="row vertical-offset">
+        <div class="col-md-3">
+            <p>Joke:</p>
+        </div>
+        <div class="col-md-7">
+            @item.JokeString
+        </div>
+    </div>
+    <div class="row vertical-offset">
+        <div class="col-md-3">
+            <p>Kilde:</p>
+        </div>
+        <div class="col-md-7">
+            @item.Source
+        </div>
+    </div>
+    <div class="row vertical-offset">
+        <div class="col-md-3">
+            <p>Tags:</p>
+        </div>
+        <div class="col-md-7">
+            <p>
+                @foreach (var tag in item.Tags)
+                {
+                    <span>
+                        @tag.TagString
+                    </span>
+                    <span>, </span>
+                }
+            </p> 
+        </div>
+    </div>
+    <hr/>
+}

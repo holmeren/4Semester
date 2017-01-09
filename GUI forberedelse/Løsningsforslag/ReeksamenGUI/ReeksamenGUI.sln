@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksamensStats", "EksamensStats\EksamensStats.csproj", "{FAB59A96-D9DC-49CE-8F7B-28F975010033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReeksamenWeb", "ReeksamenWeb\ReeksamenWeb.csproj", "{8C628C4E-4133-4347-9008-2D3DF4E7FEC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAB59A96-D9DC-49CE-8F7B-28F975010033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB59A96-D9DC-49CE-8F7B-28F975010033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB59A96-D9DC-49CE-8F7B-28F975010033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB59A96-D9DC-49CE-8F7B-28F975010033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C628C4E-4133-4347-9008-2D3DF4E7FEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C628C4E-4133-4347-9008-2D3DF4E7FEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C628C4E-4133-4347-9008-2D3DF4E7FEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C628C4E-4133-4347-9008-2D3DF4E7FEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

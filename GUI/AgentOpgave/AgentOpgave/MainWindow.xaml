@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="648.2">
     <Window.Resources>
-        <i4Gui:Agents x:Key="agents" />
+        
         <SolidColorBrush x:Key="myBrush" Color="Bisque">
         </SolidColorBrush>
 

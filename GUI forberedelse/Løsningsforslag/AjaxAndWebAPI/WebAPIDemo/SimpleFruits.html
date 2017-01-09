@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Simple Fruits Demo</title>
+</head>
+<body>
+    <input type="button" id="getText" value="Get text" />
+    <input type="button" id="getTextAsync" value="Get text Async" />
+    <input type="button" id="getTextAsyncLoad" value="Load text" />
+    <pre id="output">
+    </pre>
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script>
+        $("#getText").click(function () {
+            var req = new XMLHttpRequest();
+            req.open("GET", "files/data.txt", false);
+            req.send(null);
+            console.log(req.responseText);
+            $("#output").text(req.responseText);
+        });
+
+        $("#getTextAsync").click(function () {
+            var req = new XMLHttpRequest();
+            req.open("GET", "files/data.txt", true);
+            req.send(null);
+            req.onreadystatechange = function () {
+                if (req.readyState == 4) {
+                    console.log(req.responseText);
+                    $("#output").text(req.responseText);
+                }
+            };
+        });
+
+        $("#getTextAsyncLoad").click(function () {
+            var req = new XMLHttpRequest();
+            req.addEventListener("load", transferComplete);
+            req.addEventListener("error", transferFailed);
+            req.open("GET", "files/data.txt", true);
+            req.send(null);
+
+            function transferFailed(evt) {
+                alert("An error occurred while transferring the file:" + evt.error);
+            }
+
+            function transferComplete(evt) {
+                console.log("The transfer is complete.", req.status);
+                if (req.status == 200)
+                    $("#output").text(req.responseText);
+                else
+                    $("#output").text("The transfer did not succeed. Status: " + req.statusText)
+            }
+
+        });
+    </script>
+</body>
+</html>

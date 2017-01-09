@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Ajax with jQuery - Demo 1";
+}
+
+
+<h2>Using Ajax with jQuery</h2>
+
+@Html.ActionLink("Show the privacy policy", "PrivacyPolicy", null, new { id = "privacyLink" })
+@*<a href="/Home/PrivacyPolicy" id="privacyLink">Show the privacy policy</a>*@
+
+<div id="privacy"></div>
+
+@section scripts {
+    <script src="~/scripts/AjaxDemo.js"></script>
+}

@@ -1,0 +1,31 @@
+﻿form {
+    background-color: #eaeaea;
+    width: 350px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+label {
+    float: left;
+    width: 150px;
+    display: block;
+    clear: left;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+input {
+    margin-top: 10px;
+    display: block;
+}
+
+#btnStoreNumbers {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+#btnShowNumbers {
+    margin-left: 100px;
+    margin-top: 10px;
+}

@@ -183,5 +183,10 @@ namespace SimpleDraw
             ReleaseMouseCapture();
 
         }
+
+        public Point MousePos()
+        {
+            return Mouse.GetPosition(myCanvas);
+        }
     }
 }

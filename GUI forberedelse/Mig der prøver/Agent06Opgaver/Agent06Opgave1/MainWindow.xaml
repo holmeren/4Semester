@@ -6,10 +6,11 @@
         xmlns:local="clr-namespace:Agent06Opgave1"
         xmlns:i4Gui="clr-namespace:I4GUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="700">
     <Window.Resources>
         <i4Gui:Agents x:Key="agents"/>
         <SolidColorBrush x:Key="BackgroundColor" Color="Aquamarine"></SolidColorBrush>
+        <local:Specialities x:Key="special"></local:Specialities>
 
         <Style x:Key="ButtonStyle" TargetType="{x:Type Button}">
             <Style.Setters>
@@ -35,6 +36,15 @@
                 <Setter Property="Background" Value="Aqua"></Setter>
             </Style.Setters>
         </Style>
+        
+        <DataTemplate x:Key="agentTemplate">
+            <WrapPanel>
+                <TextBlock Text="{Binding Path=ID}" Padding="5,0"></TextBlock>
+                <TextBlock Text="{Binding Path=CodeName}" Padding="5,0"></TextBlock>
+                <TextBlock Text="{Binding Path=Speciality}" Padding="5,0"></TextBlock>
+                <TextBlock Text="{Binding Path=Assignment}" Padding="5,0"></TextBlock>
+            </WrapPanel>
+        </DataTemplate>
     </Window.Resources>
     <Window.DataContext>
         <i4Gui:Agents />
@@ -71,6 +81,16 @@
             </Button>
             <TextBlock Text="File Name:" VerticalAlignment="Center"></TextBlock>
             <TextBox Name="saveText" Width="75" Height="auto" VerticalAlignment="Center" ></TextBox>
+
+            <ComboBox Width="100" x:Name="sortOrderCombo" SelectedIndex="0"
+                      FontSize="12"
+                      SelectionChanged="SortOrderCombo_OnSelectionChanged"
+                      >
+                <ComboBoxItem Tag="None">None</ComboBoxItem>
+                <ComboBoxItem Tag="ID">ID</ComboBoxItem>
+                <ComboBoxItem Tag="CodeName">CodeName</ComboBoxItem>
+                <ComboBoxItem Tag="Speciality">Speciality</ComboBoxItem>
+            </ComboBox>
         </ToolBar>
 
         <StatusBar DockPanel.Dock="Bottom" Height="auto">
@@ -86,8 +106,8 @@
         <Grid Name="agentGrid"  Background="{DynamicResource ResourceKey=BackgroundColor}">
 
         <Grid.ColumnDefinitions >
-            <ColumnDefinition Width="3*"></ColumnDefinition>
             <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid Grid.Column="0">
             <Grid.ColumnDefinitions>
@@ -107,7 +127,7 @@
             <Label HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="0" Grid.Row="3" Content="Assignment"></Label>
             <TextBox  Style="{StaticResource ResourceKey=textBoxStyle}" Grid.Column="1" Name="IdBox" Text="{Binding Path=ID}" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="0" Width="75" Margin="20,0,0,0"></TextBox>
             <TextBox Style="{StaticResource JamesBond}"  Grid.Column="1" Name="CodeNameBox" Text="{Binding Path=CodeName}" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Width="175" Margin="20,0,0,0"></TextBox>
-                <TextBox Style="{StaticResource ResourceKey=textBoxStyle}" Grid.Column="1" Name="SpeBox" Text="{Binding Path=Speciality}" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="2" Width="175" Margin="20,0,0,0"></TextBox>
+                <ComboBox SelectedItem="{Binding Path=Speciality}"  ItemsSource="{Binding Source={StaticResource special}}"  Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="20,0,0,0"></ComboBox>
                 <TextBox Style="{StaticResource JamesBond}" Grid.Column="1" Name="AssignBox" Text="{Binding Path=Assignment}" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="3" Width="175" Height="75" Margin="20,0,0,0"></TextBox>
 
             <!--<TextBlock Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="0" Margin="20,0,0,0" Text="{Binding Path=ID}"></TextBlock>
@@ -119,8 +139,8 @@
             <Button Name="btnNy"  Grid.Column="1" Grid.Row="4" Height="25" Width="75" HorizontalAlignment="Left" Margin="50.2,50.8,0,0" Content="Ny" VerticalAlignment="Top" Click="btnNy_Click"></Button>-->
         </Grid>
         <Grid Column="1">
-            <ListBox ItemsSource="{Binding}" IsSynchronizedWithCurrentItem="True" SelectedIndex="{Binding Path=CurrentIndex}"
-                 DisplayMemberPath="CodeName" Name="lbxAgents" Margin="10,10,10,10"
+            <ListBox ItemsSource="{Binding}" IsSynchronizedWithCurrentItem="True" SelectedIndex="{Binding Path=CurrentIndex}" ItemTemplate="{StaticResource agentTemplate}"
+                 Name="lbxAgents" Margin="10,10,10,10"
                   />
         </Grid>
     </Grid>

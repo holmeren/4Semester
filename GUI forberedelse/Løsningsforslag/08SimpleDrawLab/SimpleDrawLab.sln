@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDrawLab", "SimpleDrawLab\SimpleDrawLab.csproj", "{92C1235E-3A99-481E-9685-018945EDF5AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6360EBCF-77DE-4FC0-B562-4F4539E81B46}"
+	ProjectSection(SolutionItems) = preProject
+		08 SimpleDraw.pdf = 08 SimpleDraw.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92C1235E-3A99-481E-9685-018945EDF5AF}.Debug|x86.ActiveCfg = Debug|x86
+		{92C1235E-3A99-481E-9685-018945EDF5AF}.Debug|x86.Build.0 = Debug|x86
+		{92C1235E-3A99-481E-9685-018945EDF5AF}.Release|x86.ActiveCfg = Release|x86
+		{92C1235E-3A99-481E-9685-018945EDF5AF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

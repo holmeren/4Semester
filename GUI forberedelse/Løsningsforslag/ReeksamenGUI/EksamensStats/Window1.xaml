@@ -1,0 +1,31 @@
+﻿<Window x:Class="EksamensStats.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EksamensStats"
+        mc:Ignorable="d"
+        Title="Window1" Height="300" Width="500">
+    
+    <Grid>
+        <Canvas Margin="50,20,-10.4,20.4">
+            <Line Stroke="Black" X1="10" Y1="200" X2="10" Y2="50"></Line>
+            <Line Stroke="Black" X1="10" Y1="200" X2="400" Y2="200"></Line>
+            <Rectangle Fill="Aqua" Height="{Binding Minus3}" Width="20" Canvas.Left="20" Canvas.Bottom="20" ToolTip="{Binding Path=Minus3}"></Rectangle>
+            <Rectangle Fill="Blue"  Height="{Binding NulNul}" Width="20" Canvas.Left="60" Canvas.Bottom="20" ToolTip="{Binding Path=NulNul}"></Rectangle>
+            <Rectangle Fill="BlueViolet"  Height="{Binding NulTo}" Width="20" Canvas.Left="100" Canvas.Bottom="20" ToolTip="{Binding Path=NulTo}"></Rectangle>
+            <Rectangle Fill="Brown"  Height="{Binding Fire}" Width="20" Canvas.Left="140" Canvas.Bottom="20" ToolTip="{Binding Path=Fire}"></Rectangle>
+            <Rectangle Fill="Chartreuse"  Height="{Binding Syv}" Width="20" Canvas.Left="180" Canvas.Bottom="20" ToolTip="{Binding Path=Syv}"></Rectangle>
+            <Rectangle Fill="Crimson"  Height="{Binding Ti}" Width="20" Canvas.Left="220" Canvas.Bottom="20" ToolTip="{Binding Path=Ti}"></Rectangle>
+            <Rectangle Fill="DarkGoldenrod"  Height="{Binding Tolv}" Width="20" Canvas.Left="260" Canvas.Bottom="20" ToolTip="{Binding Path=Tolv}" ></Rectangle>
+            <Label Canvas.Top="200" Canvas.Left="20" Content="-3"></Label>
+            <Label Canvas.Top="200" Canvas.Left="60" Content="00"></Label>
+            <Label Canvas.Top="200" Canvas.Left="100" Content="02"></Label>
+            <Label Canvas.Top="200" Canvas.Left="140" Content="4"></Label>
+            <Label Canvas.Top="200" Canvas.Left="180" Content="-7"></Label>
+            <Label Canvas.Top="200" Canvas.Left="220" Content="10"></Label>
+            <Label Canvas.Top="200" Canvas.Left="260" Content="12" ></Label>
+
+        </Canvas>
+    </Grid>
+</Window>
